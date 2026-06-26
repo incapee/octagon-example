@@ -1,6 +1,6 @@
-from db import models
-from db.crud import create_category, create_book
-from db.db import SessionLocal
+from . import models
+from .crud import create_category, create_book
+from .db import SessionLocal
 
 
 def init_db():
